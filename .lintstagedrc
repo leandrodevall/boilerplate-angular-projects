@@ -1,0 +1,7 @@
+{
+  "**/*.{ts,css,scss}": [
+    "prettier --write",
+    "eslint 'src/**.ts' --fix",
+    "jest src/**.ts --passWithNoTests"
+  ]
+}
