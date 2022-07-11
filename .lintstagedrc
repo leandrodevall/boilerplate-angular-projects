@@ -1,0 +1,6 @@
+{
+  "*.{js,json,css,scss,html,md}": [
+    "prettier --write",
+    "jest src/** --passWithNoTests"
+  ]
+}
