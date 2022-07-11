@@ -1,6 +1,7 @@
 {
-  "*.{js,json,css,scss,html,md}": [
+  "*.ts{json,css,scss,html,md}": [
     "prettier --write",
+    "eslint 'src/**' --fix",
     "jest src/** --passWithNoTests"
   ]
 }
