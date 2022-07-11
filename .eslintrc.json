@@ -3,6 +3,7 @@
   "overrides": [
     {
       "files": ["*.ts"],
+<<<<<<< HEAD
 
       "parserOptions": {
         "sourceType": "module",
@@ -11,6 +12,8 @@
     },
     {
       "files": ["*.ts"],
+=======
+>>>>>>> cc4817b960d8ffd053295aedbed734b9f51d9cb9
       "extends": ["plugin:prettier/recommended"]
     },
     // NOTE: WE ARE NOT APPLYING PRETTIER IN THIS OVERRIDE, ONLY @ANGULAR-ESLINT/TEMPLATE
@@ -30,5 +33,8 @@
       }
     }
   ]
+<<<<<<< HEAD
   // "ignorePatterns": [".eslintrc.js"]
+=======
+>>>>>>> cc4817b960d8ffd053295aedbed734b9f51d9cb9
 }
