@@ -1,7 +1,7 @@
 {
-  "*.{json,css,scss,html,md}": [
+  "**/*.{ts,css,scss}": [
     "prettier --write",
-    "eslint 'src/**' --fix",
-    "jest src/** --passWithNoTests"
+    "eslint 'src/**.ts' --fix",
+    "jest src/**.ts --passWithNoTests"
   ]
 }
